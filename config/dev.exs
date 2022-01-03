@@ -4,12 +4,13 @@ import Config
 config :phoenix_hello, PhoenixHello.Repo,
   username: "postgres",
   password: "postgres",
+  port: "5434",
   hostname: "localhost",
   database: "phoenix_hello_dev",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
-# For development, we disable any cache and enable
+# For development, we disable any cacshe and enable
 # debugging and code reloading.
 #
 # The watchers configuration can be used to run external
